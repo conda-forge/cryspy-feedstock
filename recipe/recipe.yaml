@@ -1,6 +1,6 @@
 context:
   name: cryspy
-  version: 0.7.7
+  version: 0.7.8
   python_min: "3.9" # https://github.com/prefix-dev/rattler-build/pull/1122
 
 package:
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/cryspy-${{ version }}.tar.gz
-  sha256: 5777a1de7f5d3eac555781cc9e9e00fba83f44a6b76841244369511922d6ab77
+  sha256: 8fbc9ea5cff5a8f2133bdb37bc27d9bc3d4ee54f911d8ff95155d3afcabf1382
 
 build:
   number: 0
