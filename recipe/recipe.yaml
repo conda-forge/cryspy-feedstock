@@ -18,7 +18,7 @@ build:
 
 requirements:
   host:
-    - python ${{ python_min }}
+    - python ${{ python_min }}.*
     - pip
     - setuptools
   run:
@@ -32,7 +32,7 @@ tests:
   - script: python -c "import cryspy"
     requirements:
       run:
-        - python ${{ python_min }}
+        - python ${{ python_min }}.*
 
 about:
   summary: PNPD data analysis
