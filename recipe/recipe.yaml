@@ -1,7 +1,6 @@
 context:
   name: cryspy
   version: "0.17.0"
-  python_min: "3.10"
 
 package:
   name: ${{ name|lower }}
