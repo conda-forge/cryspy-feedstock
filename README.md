@@ -188,4 +188,5 @@ Feedstock Maintainers
 =====================
 
 * [@MridulS](https://github.com/MridulS/)
+* [@conda-forge/easyscience](https://github.com/orgs/conda-forge/teams/easyscience/)
 
