@@ -1,7 +1,7 @@
 context:
   name: cryspy
   version: "0.16.0"
-  python_min: "3.9" # https://github.com/prefix-dev/rattler-build/pull/1122
+  python_min: "3.10"
 
 package:
   name: ${{ name|lower }}
@@ -24,10 +24,10 @@ requirements:
     - versioningit
   run:
     - python >=${{ python_min }}
-    - numpy
-    - scipy
+    - numpy >=2.0
+    - scipy >=1.13
     - pycifstar
-    - matplotlib-base
+    - matplotlib-base >=3.9
 
 tests:
   - script: python -c "import cryspy"
