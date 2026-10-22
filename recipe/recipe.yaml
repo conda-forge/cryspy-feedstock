@@ -1,6 +1,6 @@
 context:
   name: cryspy
-  version: "0.16.0"
+  version: "0.17.0"
   python_min: "3.10"
 
 package:
@@ -8,8 +8,8 @@ package:
   version: ${{ version }}
 
 source:
-  url: https://files.pythonhosted.org/packages/0d/89/1010936a586bb496e79c28a2ed30f9b1701a1a0b4ddb42faa030c4c74121/cryspy-${{ version }}.tar.gz
-  sha256: 175615afe23d16df5a1d44f0f2d1faba476879f19e8d3da3fbc000f4acb5cdc9
+  url: https://files.pythonhosted.org/packages/35/f4/ec1999dcaa4270c52047e636a17e62427503d8e0ab1ac081cd104a1e741f/cryspy-${{ version }}.tar.gz
+  sha256: 5397db961ce8f85d7f0571ff2bc3410e421e28659aeb5b79209bbe0e1213a455
 
 build:
   number: 0
